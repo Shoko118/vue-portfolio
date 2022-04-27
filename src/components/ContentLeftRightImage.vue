@@ -18,8 +18,11 @@ import { ArrowNarrowRightIcon } from "@heroicons/vue/solid";
               Outside of programming, I enjoy playing guitar and listening to music. If you are
               <span class="underline underline-offset-4 decoration-indigo-500">building projects</span> or playing music
               maybe we can hang out together or
-              <span class="underline underline-offset-4 decoration-green-500">code together</span>, Would love to know
-              more about <span class="underline underline-offset-4 decoration-amber-500">you.</span>
+              <span class="underline underline-offset-4 decoration-green-500">code together</span>, Would love to<span
+                class="underline underline-offset-4 decoration-amber-500"
+              >
+                know more about you.</span
+              >
             </p>
           </div>
           <div class="flex flex-col sm:flex-row sm:items-center mt-10 sm:mt-20 sm:space-x-7">
@@ -38,13 +41,13 @@ import { ArrowNarrowRightIcon } from "@heroicons/vue/solid";
           </div>
         </div>
         <div
-          class="xl:absolute xl:filter xl:opacity-70 xl:blur-xl xl:mix-blend-overlay xl:w-64 xl:h-64 xl:bg-fuchsia-100 xl:rounded-full xl:right-52 xl:-top-24"
+          class="xl:absolute xl:filter xl:opacity-70 xl:blur-xl xl:mix-blend-overlay xl:w-64 xl:h-64 xl:bg-fuchsia-100 xl:rounded-full xl:right-52 xl:-top-12"
         ></div>
         <div
           class="xl:absolute xl:filter xl:opacity-70 xl:blur-xl xl:mix-blend-overlay xl:w-80 xl:h-80 xl:bg-pink-100 xl:rounded-full xl:right-44"
         ></div>
         <div
-          class="xl:absolute xl:filter xl:opacity-70 xl:blur-xl xl:mix-blend-overlay xl:w-64 xl:h-64 xl:bg-violet-100 xl:rounded-full xl:right-52 xl:top-28"
+          class="xl:absolute xl:filter xl:opacity-70 xl:blur-xl xl:mix-blend-overlay xl:w-64 xl:h-64 xl:bg-violet-100 xl:rounded-full xl:right-52 xl:top-20"
         ></div>
         <div class="hidden sm:flex xl:opacity-90 sm:absolute -right-24 xl:right-36">
           <div class="">

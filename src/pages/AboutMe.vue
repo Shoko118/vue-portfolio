@@ -13,17 +13,17 @@
           <div class="mt-10 md:max-w-xl lg:max-w-2xl">
             <p>
               I’m a self-taught
-              <span class="underline underline-offset-4 decoration-green-800">ENFJ Frontend Developer</span> located in
+              <span class="underline underline-offset-4 decoration-green-700">ENFJ Frontend Developer</span> located in
               Malaysia, I have been learning code since July of 2021. I have a
-              <span class="underline underline-offset-4 decoration-amber-700">passion</span> for learning techs and
+              <span class="underline underline-offset-4 decoration-yellow-600">passion</span> for learning techs and
               learning from <span class="underline underline-offset-4 decoration-cyan-700">other developers</span> 💻
             </p>
             <p class="mt-10">
               Interested in
-              <span class="underline underline-offset-4 decoration-lime-400">Frontend curriculum</span> and love to work
-              with people on idea projects, consistently
+              <span class="underline underline-offset-4 decoration-green-700">Frontend curriculum</span> and love to
+              work with people on idea projects, consistently
               <span class="underline underline-offset-4 decoration-teal-600">learning techs</span> and road to become a
-              <span class="underline underline-offset-4 decoration-red-300">better developer.</span> A fan of John
+              <span class="underline underline-offset-4 decoration-red-500">better developer.</span> A fan of John
               Mayer, K-show entertainment, guitar lover 🎸, and the one and only me.
             </p>
             <div class="mt-10">

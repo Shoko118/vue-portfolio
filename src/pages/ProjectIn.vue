@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+const props = defineProps({});
+</script>
 
 <template>
   <div class="pt-10 pb-20 sm:pt-24">

@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <div class="pt-10 sm:pt-24">
+    <div class="pt-10 pb-20 lg:pb-0 sm:pt-24">
       <div class="mx-auto flex justify-center">
         <div class="w-[70%] lg:w-[58%]">
           <h1

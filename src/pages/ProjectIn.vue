@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps({});
+const props = defineProps(["heading1", "content", "p", "p2", "hrefs"]);
 </script>
 
 <template>
@@ -8,18 +8,16 @@ const props = defineProps({});
       <div class="w-[70%] lg:w-[58%]">
         <h1 class="font-bold text-3xl sm:text-4xl">Overview</h1>
         <div class="mt-14 space-y-4">
-          <h2 class="text-2xl font-semibold">{{ $route.params.heading1 }}</h2>
-          <p class="">{{ $route.params.content }}</p>
+          <h2 class="text-2xl font-semibold">{{ heading1 }}</h2>
+          <p class="">{{ content }}</p>
           <div class="flex items-center">
             <h2 class="text-lg font-semibold">Techs:</h2>
-            <p class="ml-3 text-lg">{{ $route.params.p }}</p>
+            <p class="ml-3 text-lg">{{ p }}</p>
           </div>
-          <p class="text-base">{{ $route.params.p2 }}</p>
+          <p class="text-base">{{ p2 }}</p>
           <p>
             Feel free to check their website
-            <a class="text-md bg-gray-600 hover:bg-gray-500 rounded-full px-3 py-0.5" :href="$route.params.hrefs"
-              >Here</a
-            >
+            <a class="text-md bg-gray-600 hover:bg-gray-500 rounded-full px-3 py-0.5" :href="hrefs">Here</a>
           </p>
         </div>
       </div>

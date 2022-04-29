@@ -4,6 +4,8 @@ const props = defineProps({
     type: Array,
   },
 });
+
+console.log(props.details);
 </script>
 
 <template>
@@ -16,11 +18,6 @@ const props = defineProps({
             name: `ProjectIn`,
             params: {
               id: item.id,
-              content: item.content,
-              heading1: item.heading1,
-              p: item.p,
-              p2: item.p2,
-              hrefs: item.hrefs,
             },
           }"
         >
@@ -33,13 +30,6 @@ const props = defineProps({
             <div class="ml-4">
               <div>{{ item.title }}</div>
               <div>{{ item.desc }}</div>
-            </div>
-            <div>
-              <h2 v-if="heading1">{{ item.heading1 }}</h2>
-              <p v-if="content">{{ item.content }}</p>
-              <p v-if="p">{{ item.p }}</p>
-              <p v-if="p2">{{ item.p2 }}</p>
-              <a v-if="hrefs" :href="item.hrefs">{{ item.hrefs }}</a>
             </div>
           </div>
         </router-link>

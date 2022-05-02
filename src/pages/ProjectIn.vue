@@ -1,17 +1,17 @@
 <script setup>
 import { useStore } from "../store/store";
 
-const store = useStore();
-
 const props = defineProps({
   id: {
     type: String,
   },
 });
 
+const store = useStore();
+
 const detailID = parseInt(props.id);
 
-const { heading1, content, desc, hrefs, icon, p, p2, title } = store.getDetailByID(detailID);
+const { heading1, content, hrefs, p, p2 } = store.getDetailByID(detailID);
 </script>
 
 <template>

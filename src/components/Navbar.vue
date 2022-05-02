@@ -11,7 +11,7 @@ import { ChatAlt2Icon } from "@heroicons/vue/solid";
   <div>
     <div class="mx-auto w-full pt-5">
       <div class="mx-auto flex items-center justify-between">
-        <router-link to="/" class="ml-0 sm:ml-20">
+        <router-link to="/" class="ml-0 sm:ml-20 hover:animate-pulse">
           <img src="../assets/bry.png" alt="bry" class="w-16 sm:w-20" />
         </router-link>
         <div class="flex items-center space-x-4 mr-5 sm:mr-20 lg:mr-28">

@@ -16,8 +16,10 @@ import { ArrowNarrowRightIcon } from "@heroicons/vue/solid";
           <div class="max-w-sm lg:max-w-2xl mt-10">
             <p class="font-medium text-md lg:text-lg text-left">
               Outside of programming, I enjoy playing guitar and listening to music. If you are
-              <span class="underline underline-offset-4 decoration-indigo-500">building projects</span> or playing music
-              maybe we can hang out together or
+              <span class="underline underline-offset-4 decoration-indigo-500 motion-safe:animate-bounce"
+                >building projects</span
+              >
+              or playing music maybe we can hang out together or
               <span class="underline underline-offset-4 decoration-green-500">code together</span>, Would love to<span
                 class="underline underline-offset-4 decoration-amber-500"
               >
@@ -26,15 +28,15 @@ import { ArrowNarrowRightIcon } from "@heroicons/vue/solid";
             </p>
           </div>
           <div class="flex flex-col sm:flex-row sm:items-center mt-10 sm:mt-20 sm:space-x-7">
-            <router-link class="flex" to="/project">
+            <router-link class="flex hover:animate-bounce" to="/project">
               <div class="text-base xl:text-md font-semibold hover:underline hover:underline-offset-4">Projects</div>
               <ArrowNarrowRightIcon class="w-7 ml-2" />
             </router-link>
-            <router-link class="flex" to="/about-me">
+            <router-link class="flex hover:animate-bounce" to="/about-me">
               <div class="text-base xl:text-md font-semibold hover:underline hover:underline-offset-4">About me</div>
               <ArrowNarrowRightIcon class="w-7 ml-2" />
             </router-link>
-            <router-link class="flex" to="/contact">
+            <router-link class="flex hover:animate-bounce" to="/contact">
               <div class="text-base xl:text-md font-semibold hover:underline hover:underline-offset-4">Contact</div>
               <ArrowNarrowRightIcon class="w-7 ml-2" />
             </router-link>

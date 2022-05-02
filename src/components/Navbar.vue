@@ -32,12 +32,12 @@ import { ChatAlt2Icon } from "@heroicons/vue/solid";
           </div> -->
           <div>
             <a href="https://github.com/Shoko118"
-              ><img src="../assets/github.png" alt="" class="w-7 md:w-8 lg:w-10"
+              ><img src="../assets/github.png" alt="" class="w-7 md:w-8 lg:w-10 motion-safe:animate-bounce"
             /></a>
           </div>
           <div>
             <a href="https://www.linkedin.com/in/bryan-liaw-a92012227/">
-              <img src="../assets/linkedin.png" alt="" class="w-7 md:w-8 lg:w-10"
+              <img src="../assets/linkedin.png" alt="" class="w-7 md:w-8 lg:w-10 motion-safe:animate-bounce"
             /></a>
           </div>
         </div>

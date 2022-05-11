@@ -32,11 +32,21 @@ export const useStore = defineStore("main", {
         {
           id: 3,
           icon: MenuAlt1Icon,
+          title: "Movie List App",
+          desc: "Web Application",
+          heading1: "Movie List App",
+          content: "I built movie app 😁",
+          p: "Movie apps with fetching API movies.",
+          p2: "Builded with typescript, pinia, javascript and vue",
+          hrefs: "https://vue-multi-web-app.netlify.app/",
+        },
+        {
+          id: 4,
+          icon: MenuAlt1Icon,
           title: "Multi Web Apps",
           desc: "Web Application",
           heading1: "Multi Web Apps",
-          content:
-            "I build these 3 web applications is because just for fun and also to practice my fronted skill to become a better frontend developer. ",
+          content: "I build these 3 web applications in one application.",
           p: " Vue 3 Tailwind CSS",
           p2: "I use Vue 3 to build these 3 web applications to practice my conditional rendering, list rendering, event handling, SFC, two-way data binding, Tailwind CSS, and also Javascript.",
           hrefs: "https://vue-multi-web-app.netlify.app/",

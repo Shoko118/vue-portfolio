@@ -38,7 +38,7 @@ export const useStore = defineStore("main", {
           content: "I built movie app 😁",
           p: "Movie apps with fetching API movies.",
           p2: "Builded with typescript, pinia, javascript and vue",
-          hrefs: "https://vue-multi-web-app.netlify.app/",
+          hrefs: "https://vue-typescript-pinia-movies-app.netlify.app/",
         },
         {
           id: 4,

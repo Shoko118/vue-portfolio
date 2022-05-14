@@ -28,7 +28,7 @@ const { heading1, content, hrefs, p, p2 } = store.getDetailByID(detailID);
           </div>
           <p class="text-base">{{ p2 }}</p>
           <p>
-            Feel free to check their website
+            Feel free to check the website
             <a class="text-md bg-gray-600 hover:bg-gray-500 rounded-full px-3 py-0.5" :href="hrefs">Here</a>
           </p>
         </div>
